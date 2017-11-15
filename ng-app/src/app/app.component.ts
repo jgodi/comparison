@@ -6,12 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  catNames: string[] = [
-    'Ginger',
-    'Sparkles',
-    'Mr. Snuffles',
-    'Nikita',
-    'Mrs. Napper',
-    'Nappy McNappyton'
-  ];
 }

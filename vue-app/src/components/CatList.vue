@@ -28,8 +28,8 @@ export default {
         'Mr. Snuffles',
         'Nikita',
         'Mrs. Napper',
-        'Nappy McNappyton'
-      ]
+        'Nappy McNappyton',
+      ],
     };
   },
 };

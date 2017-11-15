@@ -1,16 +1,11 @@
-<div class="row">
-  <div class="col s12 m4" *ngFor="let cat of catNames">
-    <div class="card">
-      <div class="card-image">
-        <img src="http://thecatapi.com/api/images/get?format=src&type=gif">
-        <span class="card-title">{{ cat }}</span>
-      </div>
-      <div class="card-content">
-        <p>Soft kitty, warm kitty, little ball of fur</p>
-      </div>
-      <div class="card-action">
-        <a href="#">View This Cat!</a>
-      </div>
-    </div>
+<nav>
+  <div class="nav-wrapper">
+    <a href="#" class="brand-logo">Cat App</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li routerLinkActive="active"><a [routerLink]="['/list']">List</a></li>
+      <li routerLinkActive="active"><a [routerLink]="['/search']">Search</a></li>
+    </ul>
   </div>
-</div>
+</nav>
+
+<router-outlet></router-outlet>
